@@ -1,75 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
+<!-- Get off my source code -->
 <html>
+<head>
+	<title>Monohedron - GiMU</title>
+	<link id="islandStyles" href="styles/island.css" meadia="screen" rel="stylesheet" type="text/css">
+	<link id="navStyle" href="styles/nav.css" media="screen" rel="stylesheet" type="text/css">
+	<link id="homeStyle" href="styles/home.css" media="screen" rel="stylesheet" type="text/css">
+	<link rel="icon" type="image/png" href="img/favicon.png">
+	<link rel="apple-touch-icon" href="img/favicon-ios.png">
+</head>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="GiMU : Use ALL the references!" />
+<div id="nav" class="navContainer"><div id="navBackground" class="navBackground"></div>
+<div id="navButtonContainer" class="navButtonContainer">
+<a href="index.html"><div id="home" class="navHome" style="width:125px">GiMU</div></a>
+<a href="blog/index.html"><div id="blog" class="navNormal" style="width:90px">Blog</div></a>
+<!-- <a href="/gallery"><div id="gallery" class="navNormal" style="width:130px">Gallery</div></a> -->
+<!-- Don't worry. It's comming. -->
+<a href="download/index.html"><div id="download" class="navNormal" style="width:190px">Download</div></a>
+</div></div>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<body>
+<div id="imageContainer">
+<img id="main" src="img/header.png" class="bannerImage" />
+<div id="caption">Use ALL the references!</div></div>
+<div class="content">
+<h1>GiMU</h1>
+<br />GiMU is a game currently under development in Unity. Although it's similar in style to other RPG games, there are no limits to GiMU except for the incredibly long gaps in the development releases.
+<br />
+<br /><h2>Controls</h2>
+<br /><b>W</b>: Forward
+<br /><b>A</b>: Left
+<br /><b>S</b>: Back
+<br /><b>D</b>: Right
+<br /><b>Space</b>: Jump
+<br /><b>Shift</b>: Sprint
+<br /><b>Escape</b>: Pause
+<br />These controls can be rebound in the menu when launching GiMU.
+<br />
+<br /><h2>Where does one accuire GiMU?</h2>
+<br />One simply clicks Download at the top of this page. Or if you want source code, visit the <a href="https://github.com/Monohedron/GiMU">github page</a>.
+<br />
+<br /><h2>What can you do?</h2>
+<br />For right now, the game is in a very early pre-alpha stage so basically you can walk around an island and fall through the world. In the final release, though, you'll be able to do basically anything. There's no real plot so the game is endless.
+<br />
+<br /><h2>So basically it's Skyrim, right?</h2>
+<br />No. GiMU doesn't have arrows or knees to take said arrows to. (For now)
+<br />
+<br /><h2>Why are the release cycles so long and random?</h2>
+<br />Because I'm a junior in High School who has a lot of stuff to do...
+<br />
+<br /><h2>What's Monohedron?</h2>
+<br />Monohedron is the development team for GiMU. And by team I mean the one person who's doing the scripting and graphics and the other person who came up with the game. It's also a fancy name for a 3D figure with one face... Which is impossible. But check out <a href="img/monohedron.png">our neat logo</a>!
+<br />
+<br /><h2>What does GiMU mean?</h2>
+<br />That's not important right now.
+</div>
+</body>
 
-    <title>GiMU</title>
-  </head>
+<script type="text/javascript" src="scripts/caption.js"></script>
 
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/Monohedron/GiMU">View on GitHub</a>
-
-          <h1 id="project_title">GiMU</h1>
-          <h2 id="project_tagline">Use ALL the references!</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/downloads/Monohedron/GiMU/GiMU.zip">Download the current game build</a>
-              <a class="tar_download_link" href="https://github.com/Monohedron/GiMU/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>GiMU</h3>
-
-<p>GiMU is a game currently under development in Unity. Although it's similar in style to other RPG games, there are no limits to GiMU except for the incredibly long gaps in the development releases. </p>
-
-<h4>Controls</h4>
-
-<ul>
-<li>W - Forward</li>
-<li>A - Left</li>
-<li>S - Back</li>
-<li>D - Right</li>
-<li>Space - Jump</li>
-<li>Shift - Sprint</li>
-<li>Escape - Pause
-</li>
-These can be rebound at the menu when launching GiMU
-</ul><h4>What can you do?</h4>
-
-<p>For right now, the game is in a very early pre-alpha stage so basically you can walk around an island and fall through the world. In the final release, though, you'll be able to do basically anything. There's no real plot so the game is endless.</p>
-
-<h4>What does GiMU mean?</h4>
-
-<p>That's not important right now.</p>
-
-<h4>So basically it's Skyrim?</h4>
-
-<p>No. GiMU doesn't have arrows or knees to take said arrows to. (For now)</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">GiMU maintained by <a href="https://github.com/Monohedron">Monohedron</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+<footer>
+Published by <a href="https://github.com/Monohedron">Monohedron</a> • Hosted on <a href="http://pages.github.com/">Github</a>
+</footer>
 </html>

@@ -1,0 +1,2 @@
+var captionArray = ['Use ALL the references!','Not unlike Skyrim','Open Source!','Chandeliers!','Contains 0 arrows, 0 knees, and 8 arrow to the knee references','Squids!','Javascript!','Impossible Geometry!','Physics!','Science!','Hi!','Recursion!','Yours for only free-nintey-nine!','Visit our blag!','Long release cycles!','3-Dimmensional!','Not anti-aliased!','Cross-Platform!'];
+document.getElementById('caption').innerHTML = captionArray[Math.floor(Math.random()*captionArray.length)];
