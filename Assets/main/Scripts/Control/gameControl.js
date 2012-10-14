@@ -1,34 +1,30 @@
 #pragma strict
 
-var customSkin : GUISkin;
-var paused:boolean = false;
-var updated:boolean = false;
+static var paused:boolean = false;
 
-function Start () {
+function Start(){
 	Screen.lockCursor = true;
 };
 
-function Update () {
-	if(Input.GetButtonDown("Pause") && !paused && !updated){
-		Time.timeScale = 0.0;
-		paused = true;
-		updated = true;
-		GetComponent(MouseLook).enabled = false;
-		Screen.lockCursor = false;
-	};
-		if(Input.GetButtonDown("Pause") && paused && !updated){
-		Time.timeScale = 1.0;
-		paused = false;
-		updated = true;
-		GetComponent(MouseLook).enabled = true;
-		Screen.lockCursor = true;
-	};
-	updated = false;
+function pause(){
+	Time.timeScale = 0.0;
+	paused = true;
+	GetComponent(MouseLook).enabled = false;
+	GetComponent(pauseGUI).enabled = true;
+	Screen.lockCursor = false;
 };
 
-function onGUI (){
-	GUI.skin = customSkin;
-	
-	GUILayout.Button("Resume");
-	GUILayout.Button("Quit");
+function resume(){
+	Time.timeScale = 1.0;
+	paused = false;
+	GetComponent(MouseLook).enabled = true;
+	GetComponent(pauseGUI).enabled = false;
+	Screen.lockCursor = true;
+};
+
+function Update(){
+	if(Input.GetButtonDown("Pause")){
+		if(!paused){pause();};
+		else{resume();};
+	};
 };

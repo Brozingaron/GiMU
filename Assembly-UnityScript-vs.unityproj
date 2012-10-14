@@ -53,6 +53,7 @@
      <Compile Include="Assets\imported\General Scripts\DragRigidbody.js" />
      <Compile Include="Assets\main\Particles\Legacy Particles\TimedObjectDestructor.js" />
      <Compile Include="Assets\main\Scripts\Control\gameControl.js" />
+     <Compile Include="Assets\main\Scripts\Control\pauseGUI.js" />
      <None Include="Assets\imported\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\main\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\main\terrain\Skyboxes\_skybox info.txt" />
