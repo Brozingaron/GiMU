@@ -66,6 +66,7 @@ del{
 	color:rgba(0,0,0,0.75);
 	font-style:italic;
 }
+a img {border: none;}
 a:link, a:visited, a:hover, a:active{text-decoration:none;}
 .content a:link{color:#0072cf;font-style:italic;text-decoration:underline;}
 .content a:visited{color:#0072cf;}

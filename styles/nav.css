@@ -41,7 +41,7 @@
 	background: #99d9f2;
 	background: -moz-radial-gradient(center bottom, circle farthest-side, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0) 100%), -moz-linear-gradient(top, #0046AD 0%, #00A0DF 100%);
 	background: -webkit-gradient(radial, center bottom, 0, center bottom, 487, color-stop(0, rgba(255,255,255,0.5)), color-stop(0.25, rgba(255,255,255,0))), -webkit-gradient(linear, left top, left bottom, color-stop(0, #0046AD), color-stop(1, #00A0DF));
-	background: radial-gradient(circle farthest-side at center bottom, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0) 100%), radial-gradient(circle farthest-side at center bottom, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0) 100%);;
+	background: radial-gradient(circle farthest-side at center bottom, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0) 100%), radial-gradient(circle farthest-side at center bottom, #0046AD 0%, #00A0DF 100%);;
 }
 .navSelected{
 	height:55px;
