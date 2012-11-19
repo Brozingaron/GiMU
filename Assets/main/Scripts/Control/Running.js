@@ -17,7 +17,6 @@ function Update(){
     if (Input.GetButton("Sprint")){
         speed = runSpeed;
     }
-    chMotor.movement.maxForwardSpeed = speed; // set max speed
-    chMotor.movement.maxSidewaysSpeed = speed; // set max speed
-    chMotor.movement.maxBackwardsSpeed = speed-2; // set max speed
+    chMotor.movement.maxForwardSpeed = speed;
+    chMotor.movement.maxSidewaysSpeed = speed * 0.75;
 }

@@ -1,9 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\main\Scripts\Control\pauseGUI.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\main\Scripts\Control\Push.js">
     <Files>
-      <File FileName="Assets\main\Scripts\Control\gameControl.js" Line="5" Column="17" />
-      <File FileName="Assets\main\Scripts\Control\pauseGUI.js" Line="14" Column="38" />
+      <File FileName="Assets\main\Scripts\Control\Push.js" Line="9" Column="2" />
+      <File FileName="Assets\main\Scripts\time.js" Line="19" Column="2" />
+      <File FileName="Assets\main\Scripts\sun.js" Line="12" Column="65" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

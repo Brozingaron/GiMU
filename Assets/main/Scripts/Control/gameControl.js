@@ -3,6 +3,7 @@
 static var paused:boolean = false;
 
 function Start(){
+	Time.timeScale = 1.0;
 	Screen.lockCursor = true;
 };
 
